@@ -1,0 +1,48 @@
+.containerCompany {
+  height: 100vh;
+}
+.boxInput {
+  background-color: var(--COLOR2);
+  color: black;
+}
+.company {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  height: 40vh;
+  margin-bottom: 10%;
+}
+.singleComp {
+  border: 1px solid var(--COLOR2);
+  width: 24%;
+}
+.btnTransfer {
+  border: 1px solid var(--COLOR2);
+  text-align: center;
+  padding: 0;
+  width: 15vw;
+  height: 5vh;
+}
+
+.transactionsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.currencyFrom {
+  border: 1px solid var(--COLOR2);
+  width: 10vw;
+}
+
+.currencyTo {
+  border: 1px solid var(--COLOR2);
+  width: 10vw;
+}
+
+.companyBox {
+  display: flex;
+}
+
+.title {
+  width: 8vw;
+}

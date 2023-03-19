@@ -1,0 +1,75 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.titleMain {
+  color: var(--COLOR2);
+  font-size: 3.5rem;
+}
+
+.imagePlane {
+  height: 35vh;
+  margin-right: 5vw;
+}
+
+.titleBox {
+  width: 40vw;
+}
+
+/* .navLogin{
+  margin: 2% 8% 0 8%;
+  position: fixed;
+  top: 0;
+  left:0;
+  display: flex; */
+/* background-color: var(--COLOR2); */
+/* gap: 50%;
+  width: 80%; */
+/* } */
+
+/*Login and Register CSS*/
+.auto-form-container,
+.login-form,
+.register-form {
+  background-color: var(--COLOR2);
+  /* width: 35vw; */
+  /*height: 40vh; */
+  display: flex;
+  flex-direction: column;
+  margin: 60px 0 0;
+}
+
+label {
+  text-align: left;
+  margin: 10px 150px 0px 150px;
+  border: none;
+  padding: 5px 1px -50px 1px;
+}
+
+input {
+  margin: 0px 150px;
+  border: none;
+  border-radius: 5px;
+  padding: 16px 16px;
+}
+
+button {
+  background-color: white;
+  margin: 16px 150px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+}
+
+.link-btn {
+  background: none;
+  color: black;
+  text-decoration: underline;
+  margin: 0px;
+}
